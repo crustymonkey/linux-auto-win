@@ -1,0 +1,243 @@
+{
+    "_mon_map_": {
+        "built in": {
+            "manufacturer": "LGD",
+            "model": "1699",
+            "map": "laptop"
+        },
+        "home": [
+            {
+                "manufacturer": "DEL",
+                "model": "53506",
+                "serial": "826497000"
+            },
+            {
+                "manufacturer": "DEL",
+                "model": "41130",
+                "serial": "810963000"
+            }
+        ],
+        "work": [
+            {
+                "manufacturer": "SAM",
+                "model": "28781",
+                "serial": "809714000"
+            }
+        ],
+        "dexter": [
+            {
+                "manufacturer": "LEN",
+                "model": "25074",
+                "serial": "VNA6VABC"
+            }
+        ]
+    },
+    "home": [
+        {
+            "name": "Chrome",
+            "desk": 0,
+            "xoff": 1904,
+            "yoff": 1462,
+            "width": 1744,
+            "height": 1382
+        },
+        {
+            "name": "Chrome",
+            "desk": 0,
+            "xoff": 1907,
+            "yoff": -10,
+            "width": 1318,
+            "height": 1482
+        },
+        {
+            "name": "jay@fserver",
+            "desk": 0,
+            "xoff": 3606,
+            "yoff": 1449,
+            "width": 628,
+            "height": 1376
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 4182,
+            "yoff": 1449,
+            "width": 628,
+            "height": 1376
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 3183,
+            "yoff": -23,
+            "width": 2203,
+            "height": 1478
+        },
+        {
+            "name": "jayd@devvm",
+            "desk": 0,
+            "xoff": 4758,
+            "yoff": 1449,
+            "width": 628,
+            "height": 1376
+        },
+        {
+            "name": "Inbox",
+            "desk": 0,
+            "xoff": 0,
+            "yoff": 1800,
+            "width": 1920,
+            "height": 1080
+        }
+    ],
+    "work": [
+        {
+            "name": "Chrome",
+            "desk": 0,
+            "xoff": 1904,
+            "yoff": 22,
+            "width": 2144,
+            "height": 2102
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 4582,
+            "yoff": 9,
+            "width": 628,
+            "height": 1393
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 5158,
+            "yoff": 1350,
+            "width": 628,
+            "height": 764
+        },
+        {
+            "name": "jayd@devvm",
+            "desk": 0,
+            "xoff": 5158,
+            "yoff": 9,
+            "width": 628,
+            "height": 1393
+        },
+        {
+            "name": "jay@fserver",
+            "desk": 0,
+            "xoff": 4006,
+            "yoff": 9,
+            "width": 628,
+            "height": 1393
+        },
+        {
+            "name": "Inbox",
+            "desk": 0,
+            "xoff": 0,
+            "yoff": 1080,
+            "width": 1920,
+            "height": 1080
+        }
+    ],
+    "dexter": [
+        {
+            "name": "Chrome",
+            "desk": 0,
+            "xoff": -16,
+            "yoff": 22,
+            "width": 2143,
+            "height": 2102
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 2662,
+            "yoff": 9,
+            "width": 628,
+            "height": 2107
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 0,
+            "xoff": 3238,
+            "yoff": 1078,
+            "width": 628,
+            "height": 1036
+        },
+        {
+            "name": "jayd@devvm",
+            "desk": 0,
+            "xoff": 3238,
+            "yoff": 9,
+            "width": 628,
+            "height": 1121
+        },
+        {
+            "name": "jay@fserver",
+            "desk": 0,
+            "xoff": 2086,
+            "yoff": 9,
+            "width": 628,
+            "height": 2107
+        },
+        {
+            "name": "Inbox",
+            "desk": 0,
+            "xoff": 964,
+            "yoff": 2160,
+            "width": 1920,
+            "height": 1080
+        }
+    ],
+    "laptop": [
+        {
+            "name": "Inbox",
+            "desk": 2,
+            "xoff": 0,
+            "yoff": 32,
+            "width": 1920,
+            "height": 988
+        },
+        {
+            "name": "Chrome",
+            "desk": 0,
+            "xoff": -16,
+            "yoff": 22,
+            "width": 1952,
+            "height": 1030
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 1,
+            "xoff": 550,
+            "yoff": 9,
+            "width": 628,
+            "height": 1036
+        },
+        {
+            "name": "jayd@jayd",
+            "desk": 1,
+            "xoff": 1126,
+            "yoff": 9,
+            "width": 628,
+            "height": 1036
+        },
+        {
+            "name": "jayd@devvm",
+            "desk": 1,
+            "xoff": 1318,
+            "yoff": 9,
+            "width": 628,
+            "height": 1036
+        },
+        {
+            "name": "jay@fserver",
+            "desk": 1,
+            "xoff": -26,
+            "yoff": 9,
+            "width": 628,
+            "height": 1036
+        }
+    ]
+}

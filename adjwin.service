@@ -1,0 +1,8 @@
+[Unit]
+Description = Adjust windows based on a matching state
+
+[Service]
+ExecStart = /home/jayd/local/bin/auto-win.py -D
+
+[Install]
+WantedBy = multi-user.target

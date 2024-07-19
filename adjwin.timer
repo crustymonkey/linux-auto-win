@@ -1,0 +1,9 @@
+[Unit]
+Description = Run the remindme timer once a minute
+
+[Timer]
+OnCalendar = *:*:0/2
+AccuracySec = 1s
+
+[Install]
+WantedBy = timers.target
