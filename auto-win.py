@@ -6,6 +6,7 @@ import os
 import re
 import subprocess as sp
 import sys
+import time
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from dataclasses import dataclass
 
@@ -50,6 +51,9 @@ def get_args():
         'as `adjwin.py` uses.')
     p.add_argument('-s', '--state-file', default='/var/tmp/monmap.state',
         help='The path to the state file')
+    p.add_argument('-w', '--wait', type=float, default=0.0,
+        help='Help wait this many seconds before moving windows on monitor '
+        'change detection')
     p.add_argument('-m', '--monitors-only', default=False, action='store_true',
         help='Just output the monitors found and exit')
     p.add_argument('-D', '--debug', action='store_true', default=False,
@@ -179,6 +183,7 @@ def get_cur_state_name(mons, conf):
 def adjust_windows(cur_state, args):
     # First, move the windows
     if cur_state != UNKNOWN_STATE:
+        time.sleep(args.wait)
         logging.debug(f'Adjusting windows to {cur_state}')
         sp.run([ADJWIN, cur_state], check=True)
 

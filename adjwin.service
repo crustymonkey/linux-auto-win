@@ -2,7 +2,7 @@
 Description = Adjust windows based on a matching state
 
 [Service]
-ExecStart = /home/jayd/local/bin/auto-win.py -D
+ExecStart = /home/jayd/local/bin/auto-win.py -D -w 1
 
 [Install]
-WantedBy = multi-user.target
+WantedBy = default.target

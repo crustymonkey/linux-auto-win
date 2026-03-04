@@ -1,5 +1,5 @@
 [Unit]
-Description = Run the remindme timer once a minute
+Description = Move the windows around
 
 [Timer]
 OnCalendar = *:*:0/2
